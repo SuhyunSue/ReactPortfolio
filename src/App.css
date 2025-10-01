@@ -1,38 +1,180 @@
+/* App */
 .App {
+    font-family: "Inter", sans-serif;
+} 
+
+
+.Topbar {
+  position: fixed;  /* 화면 고정 */
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: white;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  z-index: 1000;
+  padding: 16px;
+}
+
+
+
+/* Home */
+.home {
+  padding: 20px;
+}
+
+.imgContainer{
+    display: flex;               /* 가로로 나열 */
+    justify-content: center;     /* 가운데 정렬 */
+    align-items: center;         /* 세로 가운데 정렬 */
+    margin-top: 20px;
+}
+
+.centerimg {
+    width: 40%;
+    border-radius: 30%;
+    margin-top: 50px;
+}
+
+/* Main */
+.mainWriting {
+    margin-top: 30px;
+    text-align: center;
+    line-height: 60px;
+    font-size: 40px;
+}
+
+.contactContainer{
+    display: flex;               /* 가로로 나열 */
+    justify-content: center;     /* 가운데 정렬 */
+    align-items: center;         /* 세로 가운데 정렬 */
+    gap: 20px;                   /* 아이콘 사이 간격 */
+    margin-top: 20px;
+}
+
+.contact {
+  width: 30px;
+  gap: 20px;
+}
+
+.skill-container{
+    margin-top: 200px;
+    font-size: 50px;
+    text-align: center;
+}
+
+.containerlanguage {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    margin-top: 50px;
+}
+
+.programlanguage{
+    width: 50px;
+}
+
+.projectIni{
+  margin-top: 100px;
+  font-size: 50px;
   text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  justify-content: center; /* 가로 가운데 */
 }
 
-.App-link {
-  color: #61dafb;
+.project-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.projectli{
+    background: rgba(255, 255, 255, 0.5);  /* 투명도 */
+    border-radius: 16px;                   /* 둥근 모서리 */
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1); /* 그림자 */
+    backdrop-filter: blur(10px);           /* 블러 효과 */
+    -webkit-backdrop-filter: blur(10px);   /* 사파리 호환 */
+    border: 1px solid rgba(255, 255, 255, 0.3); /* 테두리 */
+    padding: 20px;
+    width: 500px;
+    text-align: center;
+    margin-top:  50px;
+}
+
+.projectLang{
+    width: 30px;
+    margin-top: 10px;
+    opacity: 0.7;
+}
+
+.educationsec, .contactsec{
+    margin-top: 200px;
+    font-size: 50px;
+    text-align: center;
+}
+
+
+/* TimelineEducation.css */
+.timeline {
+  position: relative;
+  width: 90%;
+  margin: 0 auto;
+  padding: 50px 0;
+}
+
+.timeline::before {
+  content: '';
+  position: absolute;
+  left: 50%;
+  top: 0;
+  transform: translateX(-50%);
+  width: 2px;
+  height: 100%;
+  background-color: gray;
+}
+
+.timeline-item {
+  position: relative;
+  width: 50%;
+  padding: 20px 40px;
+  box-sizing: border-box;
+}
+
+.timeline-item.left {
+  left: 0;
+  text-align: right;
+}
+
+.timeline-item.right {
+  left: 50%;
+  text-align: left;
+}
+
+.timeline-item .content {
+  background: white;
+  padding: 10px 20px;
+  border-radius: 6px;
+  box-shadow: 0 0 6px rgba(0,0,0,0.1);
+}
+
+.Contact-container{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.ContactForHome{
+    background: rgba(255, 255, 255, 0.5);  /* 투명도 */
+    border-radius: 16px;                   /* 둥근 모서리 */
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1); /* 그림자 */
+    backdrop-filter: blur(10px);           /* 블러 효과 */
+    -webkit-backdrop-filter: blur(10px);   /* 사파리 호환 */
+    border: 1px solid rgba(255, 255, 255, 0.3); /* 테두리 */
+    padding: 20px;
+    width: 500px;
+    text-align: center;
+    margin-top:  50px;
+    color: black;
+    text-decoration: none;
 }
