@@ -15,7 +15,9 @@
   padding: 16px;
 }
 
-
+.page-content {
+  margin-top: 80px; /* Topbar 높이만큼 여백 추가 */
+}
 
 /* Home */
 .home {
@@ -177,4 +179,28 @@
     margin-top:  50px;
     color: black;
     text-decoration: none;
+}
+
+.topbar {
+  display: flex;
+  justify-content: space-between; /* 양끝으로 배치 */
+  align-items: center;            /* 세로 중앙 정렬 */
+  padding: 0 20px;                /* 좌우 여백 */
+}
+
+.topbar img {
+  margin-right: auto; /* 로고는 왼쪽으로 */
+}
+
+.menu {
+  display: flex;
+  gap: 50px;                      /* 메뉴 아이템 간격 */
+  margin-left: auto;  /* 메뉴는 오른쪽으로 */
+  padding-right: 50px; /* Contact 오른쪽에 여백 추가 */
+}
+
+.topbarTitle {
+  color: black;
+  text-decoration: none;
+  font-weight: 500;
 }
