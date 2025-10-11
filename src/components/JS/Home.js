@@ -63,7 +63,17 @@ function Home() {
           <img src={css} alt="csharp" className='projectLang' />
         </div>
       </div>
-
+      <div className='project-container'>
+        <div className='projectli'>
+          Portfolio version 01
+          <div className='projectDes'>
+            explain blahblah
+          </div>
+          <img src={javascript} alt="javascript" className='projectLang' />
+          <img src={html} alt="javascript" className='projectLang' />
+          <img src={css} alt="csharp" className='projectLang' />
+        </div>
+      </div>
 
       <div className='educationsec'>Education</div>
       <div className="timeline">

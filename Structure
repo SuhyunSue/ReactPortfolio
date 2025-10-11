@@ -1,0 +1,30 @@
+project-root/
+│
+├─ node_modules/        ← 설치된 패키지
+│
+├─ public/              ← 정적 파일
+│   └─ index.html
+│   └─ favicon.ico
+│   └─ manifest.json
+│   └─ robots.txt
+│
+├─ src/                 ← 소스 코드
+│   ├─ components/      ← 컴포넌트 폴더
+│   │   ├─ image/       ← 이미지 파일
+│   │   │   └─ C#.png
+│   │   │   └─ css.png
+│   │   │   └─ Dinner.jpg
+│   │   │   └─ email.png
+│   │   │   └─ github.png
+│   │   │   └─ html.png
+│   │   │   └─ instagram.png
+│   │   │   └─ java-script.png
+│   │   │   └─ linked.JPG
+│   │   │   └─ linkedin.jpg
+│   │   │   └─ logo.png
+│   │   │   └─ python.png
+│   │   └─ JS/          ← JS/JSX 컴포넌트 파일
+│   │
+│   ├─ App.js           ← 메인 앱 컴포넌트
+│   ├─ app.css          ← 글로벌 스타일
+│   └─ index.js         ← 앱 진입점
