@@ -1,0 +1,17 @@
+/* Home */
+.home {
+  padding: 20px;
+}
+
+.imgContainer{
+    display: flex;               /* 가로로 나열 */
+    justify-content: center;     /* 가운데 정렬 */
+    align-items: center;         /* 세로 가운데 정렬 */
+    margin-top: 20px;
+}
+
+.centerimg {
+    width: 40%;
+    border-radius: 30%;
+    margin-top: 50px;
+}

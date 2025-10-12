@@ -1,0 +1,42 @@
+.projectIni{
+  margin-top: 100px;
+  font-size: 50px;
+  text-align: center;
+  display: flex;
+  justify-content: center; /* 가로 가운데 */
+}
+
+.project-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.projectli{
+    background: rgba(255, 255, 255, 0.5);  /* 투명도 */
+    border-radius: 16px;                   /* 둥근 모서리 */
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1); /* 그림자 */
+    backdrop-filter: blur(10px);           /* 블러 효과 */
+    -webkit-backdrop-filter: blur(10px);   /* 사파리 호환 */
+    border: 1px solid rgba(255, 255, 255, 0.3); /* 테두리 */
+    padding: 20px;
+    width: 500px;
+    text-align: center;
+    margin-top:  50px;
+}
+
+.projectDes{
+    margin-top: 20px;
+    font-size: 15px;
+    text-align: left;
+    line-height: 25px;
+    margin-left: 20px;
+}
+
+.ForProject-icon{
+    width: 20px;
+    margin-top: 10px;
+    opacity: 0.7;
+    margin-left: 10px;
+}

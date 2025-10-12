@@ -1,0 +1,31 @@
+
+.contactContainer{
+    display: flex;               /* 가로로 나열 */
+    justify-content: center;     /* 가운데 정렬 */
+    align-items: center;         /* 세로 가운데 정렬 */
+    gap: 20px;                   /* 아이콘 사이 간격 */
+    margin-top: 20px;
+}
+
+.contact {
+  width: 30px;
+  gap: 20px;
+}
+
+.skill-container{
+    margin-top: 200px;
+    font-size: 50px;
+    text-align: center;
+}
+
+.containerlanguage {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    margin-top: 50px;
+}
+
+.programlanguage{
+    width: 50px;
+}
