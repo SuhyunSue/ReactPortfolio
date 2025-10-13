@@ -1,0 +1,64 @@
+.AboutMe-Title {
+    font-size: 50px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.aboutme {
+    margin-top: 50px;
+    text-align: left;
+    font-size: 20px;
+    padding: 20px;
+    line-height: 2.0;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.aboutme span {
+    font-weight: bold;
+    margin-left: 10px;
+    display: inline;
+}
+
+.aboutme p {
+    text-align: center;
+}
+
+.aboutme strong:hover {
+    font-weight: bold;
+    color: rgb(55, 55, 55);
+    font-size: 25px;
+}
+
+.aboutMeSlide {
+    width: 80%;       /* 부모보다 조금 작게 */
+    display: flex;
+    gap: 20px;
+    margin: 50px auto 100px auto; /* 상단 50px, 좌우 자동, 하단 100px */
+    justify-content: center;       /* 가로 중앙 정렬 */
+    align-items: center;           /* 세로 중앙 정렬 */
+}
+
+.aboutMeSlide img {
+    width: 50px;
+    height: 150px;
+    object-fit: cover;  /* 비율 유지하며 잘라냄 */
+}
+
+
+.AboutME-Container {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.aboutme {
+  margin-top: 20px;
+}
+
+.aboutme span {
+  display: inline-block;
+  margin: 5px;
+  font-weight: bold;
+}

@@ -4,6 +4,5 @@ export { default as HomeIntro } from './HomeIntro';
 export { default as AboutMe } from './AboutMe';
 export { default as Certifications } from './Certifications';
 export { default as Skill } from './Skill';
-export { default as Contact } from './Contact';
 export { default as Education } from './Education';
 export { default as Project } from './Project';

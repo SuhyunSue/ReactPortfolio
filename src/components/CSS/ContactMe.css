@@ -2,7 +2,7 @@
 .Contact-container{
     display: flex;
     justify-content: center;
-    flex-wrap: wrap;;
+    flex-wrap: wrap;
     gap: 30px 20px;
 }
 
@@ -11,10 +11,9 @@
     border-radius: 16px;                   /* 둥근 모서리 */
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1); /* 그림자 */
     backdrop-filter: blur(10px);           /* 블러 효과 */
-    -webkit-backdrop-filter: blur(10px);   /* 사파리 호환 */
     border: 1px solid rgba(255, 255, 255, 0.3); /* 테두리 */
     padding: 20px;
-    width: 300px;
+    width: 290px;
     text-align: center;
     margin-top: 10px;
     color: black;

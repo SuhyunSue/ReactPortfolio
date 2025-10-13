@@ -1,5 +1,5 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import { Topbar, Home, AboutMe, Certifications, Contact } from "./components/JS";
+import { Topbar, Home, AboutMe, Certifications } from "./components/JS";
 import './App.css';
 
 function App() {
@@ -11,7 +11,6 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<AboutMe />} />
         <Route path="/certifications" element={<Certifications />} />
-        <Route path="/contact" element={<Contact />} />
       </Routes>
     </Router>
     </>
