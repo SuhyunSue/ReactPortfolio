@@ -7,7 +7,7 @@ import linkedin from '../images/linkedin.jpg';
 import git from '../images/github.png';
 import insta from '../images/instagram.png';
 import email from '../images/email.png';
-
+import react from './react.png';
 
 export {
     python,
@@ -19,4 +19,5 @@ export {
     git,
     insta,
     email,
+    react
 };

@@ -7,7 +7,8 @@
 }
 
 .project-container{
-    display: flex;
+    display: flex; /* 기본은 가로임, 세로 정렬하고싶으면 세로로 바꾸는거 추가해야함*/
+    flex-direction: column; /* 세로 정렬 */
     justify-content: center;
     align-items: center;
     
