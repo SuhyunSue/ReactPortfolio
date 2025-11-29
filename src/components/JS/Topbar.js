@@ -10,6 +10,7 @@ function Topbar() {
         <Link className='topbarTitle' to="/">Home</Link>
         <Link className='topbarTitle' to="/about">About Me</Link>
         <Link className='topbarTitle' to="/certifications">Certifications</Link>
+        <Link className='topbarTitle' to="/login">Login</Link> {/*temp link*/}
       </div>
     </div>
   );

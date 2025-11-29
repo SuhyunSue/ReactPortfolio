@@ -10,20 +10,47 @@ project-root/
 │
 ├─ src/                 ← 소스 코드
 │   ├─ components/      ← 컴포넌트 폴더
+│   │   ├─ CSS
+│   │   │   ├─ AboutMe.css
+│   │   │   ├─ ContactMe.css
+│   │   │   ├─ Education.css
+│   │   │   ├─ Home.css
+│   │   │   ├─ HomeIntro.css
+│   │   │   ├─ Project.css
+│   │   │   ├─ Skill.css
 │   │   ├─ image/       ← 이미지 파일
+│   │   │   └─ arrowL.png
+│   │   │   └─ arrowR.png
 │   │   │   └─ C#.png
+│   │   │   └─ ceremony.JPG
 │   │   │   └─ css.png
 │   │   │   └─ Dinner.jpg
 │   │   │   └─ email.png
+│   │   │   └─ forcontact.png
 │   │   │   └─ github.png
 │   │   │   └─ html.png
+│   │   │   └─ index.js
 │   │   │   └─ instagram.png
 │   │   │   └─ java-script.png
 │   │   │   └─ linked.JPG
 │   │   │   └─ linkedin.jpg
 │   │   │   └─ logo.png
 │   │   │   └─ python.png
+│   │   │   └─ react.png
 │   │   └─ JS/          ← JS/JSX 컴포넌트 파일
+│   │   │   └─ AboutMe.js
+│   │   │   └─ Certifications.js
+│   │   │   └─ ContactMe.js
+│   │   │   └─ Education.js
+│   │   │   └─ Home.js
+│   │   │   └─ HomeIntro.js
+│   │   │   └─ index.js
+│   │   │   └─ Project.js
+│   │   │   └─ Skill.js
+│   │   │   └─ Topbar.js
+│   │   │   └─ App.css
+│   │   │   └─ App.js
+│   │   │   └─ index.js
 │   │
 │   ├─ App.js           ← 메인 앱 컴포넌트
 │   ├─ app.css          ← 글로벌 스타일
